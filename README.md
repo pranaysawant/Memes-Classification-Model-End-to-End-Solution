@@ -44,11 +44,12 @@ We fine-tune **VGG19** model and deployed on GCP server using **Flask** framewor
 
 ### Below is "Files" app provided by Google.
 
-<img src="images/FileApp_Header.png" style="width:350px;height:600px;">
+
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|< img width="1604" img src="images/FileApp_Header.png" style="width:350px;height:600px;">   blah | < img width="1604" img src="images/filesApp__1.png" style="width:350px;height:600px;"> |< img width="1604" img src="images/filesApp_2.png" style="width:350px;height:600px;"> |
 
 
-### Below is Memes Classification App
 
-##### 1. Landing Page
 
-<img src="images/landing_page1.png" style="width:350px;height:600px;">
+
