@@ -50,6 +50,47 @@ We fine-tune **VGG19** model and deployed on GCP server using **Flask** framewor
 |<img src="images/FileApp_Header.png" style="width:350px;height:600px;">   blah | <img src="images/filesApp__1.png" style="width:350px;height:600px;"> |<img src="images/filesApp_2.png" style="width:350px;height:600px;"> |
 
 
+### Below is Memes Classification App
+
+##### 1. Landing Page
 
 
+| | |
+|:-------------------------:|:-------------------------:|
+|<img src="images/landing_page.png" style="width:350px;height:600px;"> | <img src="images/landing_page2.png" style="width:350px;height:600px;"> |
+
+
+
+
+1. Check single Images Locally
+2. Check Multiple Images Locally
+3. Check Single Image on Server(Flask REST API)
+4. Check Multiple Image on Server(Flask REST API)
+5. Ping
+
+
+
+We have built 2 models. One is keras **VGG19** fine tune model and other is **MobileNet** Model. So we VGG19 model is deployed using **Flask framework** and Mobilenet Keras model convert to .tflite version using **TFLite** library.
+
+
+Locally means we are testing on Mobilenet Model
+
+Server means we are testing over VGG19 model.
+
+
+
+### 1. Check single Images Locally
+
+It means .tflite model is running locally and test only single image.
+
+| | | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img src="images/slocal_meme_1.png" style="width:350px;height:600px;">   blah | <img src="images/slocal_meme_2.png" style="width:350px;height:600px;"> |<img src="images/slocal_n_meme_1.png" style="width:350px;height:600px;"> |  <img src="images/slocal_no_meme_2.png" style="width:350px;height:600px;"> |
+
+
+### 2. Check Multiple Images Locally
+
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img src="images/bulk_lcal3.png" style="width:350px;height:600px;">   blah | <img src="images/bulk_local1.png" style="width:350px;height:600px;"> |<img src="images/bulk_local3.png" style="width:350px;height:600px;"> | 
 
