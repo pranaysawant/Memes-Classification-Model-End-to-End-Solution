@@ -47,7 +47,7 @@ We fine-tune **VGG19** model and deployed on GCP server using **Flask** framewor
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|< img width="1604" img src="images/FileApp_Header.png" style="width:350px;height:600px;">   blah | < img width="1604" img src="images/filesApp__1.png" style="width:350px;height:600px;"> |< img width="1604" img src="images/filesApp_2.png" style="width:350px;height:600px;"> |
+|<img src="images/FileApp_Header.png" style="width:350px;height:600px;">   blah | <img src="images/filesApp__1.png" style="width:350px;height:600px;"> |<img src="images/filesApp_2.png" style="width:350px;height:600px;"> |
 
 
 
