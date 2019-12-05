@@ -47,7 +47,7 @@ We fine-tune **VGG19** model and deployed on GCP server using **Flask** framewor
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<img src="images/FileApp_Header.png" style="width:350px;height:600px;">   blah | <img src="images/filesApp__1.png" style="width:350px;height:600px;"> |<img src="images/filesApp_2.png" style="width:350px;height:600px;"> |
+|<img src="images/FileApp_Header.png" style="width:350px;height:600px;">    | <img src="images/filesApp__1.png" style="width:350px;height:600px;"> |<img src="images/filesApp_2.png" style="width:350px;height:600px;"> |
 
 
 ### Below is Memes Classification App
@@ -57,7 +57,7 @@ We fine-tune **VGG19** model and deployed on GCP server using **Flask** framewor
 
 | | |
 |:-------------------------:|:-------------------------:|
-|<img src="images/landing_page.png" style="width:350px;height:600px;"> | <img src="images/landing_page2.png" style="width:350px;height:600px;"> |
+| <img src="images/landing_page.png"  style="width:350px;height:600px;"> | <img src="images/landing_page2.png" style="width:350px;height:600px;">|
 
 
 
@@ -85,12 +85,25 @@ It means .tflite model is running locally and test only single image.
 
 | | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-|<img src="images/slocal_meme_1.png" style="width:350px;height:600px;">   blah | <img src="images/slocal_meme_2.png" style="width:350px;height:600px;"> |<img src="images/slocal_n_meme_1.png" style="width:350px;height:600px;"> |  <img src="images/slocal_no_meme_2.png" style="width:350px;height:600px;"> |
+|<img src="images/slocal_meme_1.png" style="width:350px;height:600px;">    | <img src="images/slocal_meme_2.png" style="width:350px;height:600px;"> |<img src="images/slocal_n_meme_1.png" style="width:350px;height:600px;"> |  <img src="images/slocal_no_meme_2.png" style="width:350px;height:600px;"> |
 
 
 ### 2. Check Multiple Images Locally
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<img src="images/bulk_lcal3.png" style="width:350px;height:600px;">   blah | <img src="images/bulk_local1.png" style="width:350px;height:600px;"> |<img src="images/bulk_local3.png" style="width:350px;height:600px;"> | 
+|<img src="images/bulk_lcal3.png" style="width:350px;height:600px;"> | <img src="images/bulk_local1.png" style="width:350px;height:600px;"> |<img src="images/bulk_local3.png" style="width:350px;height:600px;"> | 
 
+### 3. Check Single Image on Server(Flask REST API)
+
+
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img src="images/s_1.png" style="width:350px;height:600px;"> | <img src="images/s_2.png" style="width:350px;height:600px;"> |<img src="images/s_3.png" style="width:350px;height:600px;"> | 
+
+
+## 4. Check Multiple Image on Server(Flask REST API)
+
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img src="images/server_bulk1.png" style="width:350px;height:600px;"> | <img src="images/server_bulk2.png" style="width:350px;height:600px;"> |<img src="images/server_bulk3.png" style="width:350px;height:600px;"> | 
