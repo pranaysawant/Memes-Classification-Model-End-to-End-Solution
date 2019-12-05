@@ -1,6 +1,6 @@
 # Memes-Classification-Model-End-to-End-Solution
 
-<img src="images/FileHeader.jpg" style="width:200px;height:400px;" >
+<img src="images/FileHeader.jpg" style="width:100px;height:200px;" >
 
 ## Introduction
 
@@ -16,3 +16,39 @@ Google's File app is there to help you out it is finding memes images and listed
 Memes detection app is similar small demo version app.
 
 
+## Problem Statement :
+Classify Memes images from phone gallery without touching personal images. Find out memes images from gallery.
+
+## Real world/Business Objectives and Constraints :
+- The cost of a mis-classification can be very high. Because suppose if image is not meme and we classified it is as meme then it not good for app.
+- No strict latency concerns.
+
+## Performance Metric:
+- Binary cross entropy
+
+## Deploy Model
+
+1. deploy model on andriod environment
+2. deploy moodel on server using flask
+
+### 1. deploy model on andriod environment
+We fine-tune couple of models. **MOBILE-NET** model on fine tuned and convert to .tflite using **TFLite** library. Full code can be found
+- https://github.com/pranaysawant/Memes-Classification-Model-End-to-End-Solution/tree/master/AndroidApp
+
+### 2. deploy moodel on server using flask
+We fine-tune **VGG19** model and deployed on GCP server using **Flask** framework. We have written REST API for the same. code can be found 
+- https://github.com/pranaysawant/Memes-Classification-Model-End-to-End-Solution/tree/master/FlaskApp
+
+
+## Result:
+
+### Below is "Files" app provided by Google.
+
+<img src="images/FileApp_Header.png" style="width:350px;height:600px;">
+
+
+### Below is Memes Classification App
+
+##### 1. Landing Page
+
+<img src="images/landing_page1.png" style="width:350px;height:600px;">
