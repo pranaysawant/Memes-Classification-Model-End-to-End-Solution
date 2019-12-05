@@ -89,12 +89,15 @@ It means .tflite model is running locally and test only single image.
 
 
 ### 2. Check Multiple Images Locally
+It means .tflite model is running locally and test multiple images.
+
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 |<img src="images/bulk_lcal3.png" style="width:350px;height:600px;"> | <img src="images/bulk_local1.png" style="width:350px;height:600px;"> |<img src="images/bulk_local3.png" style="width:350px;height:600px;"> | 
 
 ### 3. Check Single Image on Server(Flask REST API)
+It means **VGG19** model is running flask GCP server and test only single image.
 
 
 | | | |
@@ -103,6 +106,8 @@ It means .tflite model is running locally and test only single image.
 
 
 ## 4. Check Multiple Image on Server(Flask REST API)
+It means **VGG19** model is running flask GCP server and test multiple images.
+
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
