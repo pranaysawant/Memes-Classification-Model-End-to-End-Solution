@@ -31,11 +31,11 @@ Classify Memes images from phone gallery without touching personal images. Find 
 1. deploy model on andriod environment
 2. deploy moodel on server using flask
 
-### 1. deploy model on andriod environment
+### 1. Deploy model on andriod environment
 We fine-tune couple of models. **MOBILE-NET** model on fine tuned and convert to .tflite using **TFLite** library. Full code can be found
 - https://github.com/pranaysawant/Memes-Classification-Model-End-to-End-Solution/tree/master/AndroidApp
 
-### 2. deploy moodel on server using flask
+### 2. Deploy model on server using flask
 We fine-tune **VGG19** model and deployed on GCP server using **Flask** framework. We have written REST API for the same. code can be found 
 - https://github.com/pranaysawant/Memes-Classification-Model-End-to-End-Solution/tree/master/FlaskApp
 
