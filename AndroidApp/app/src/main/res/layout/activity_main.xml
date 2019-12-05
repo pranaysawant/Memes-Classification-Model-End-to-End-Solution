@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SingleMemeTestActivity"
+    android:background="@color/whitesmoke"
+
+    >
+
+    <TextView
+        android:id="@+id/isItMeme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello world"
+        android:textSize="32sp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="#101010"
+        android:textStyle="italic"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/pbText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="8dp"
+        android:text="    Please wait...."
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/progressBar"
+        />
+
+    <Button
+        android:id="@+id/next_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/isItMeme"
+        android:text="Next"
+
+
+        />
+
+    <!--<include-->
+        <!--android:id="@+id/progress_bar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--layout="@layout/layout_progress_bar"/>-->
+
+
+    <ImageView
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/isItMeme"
+        android:layout_margin="15dp"
+
+        />
+
+
+</RelativeLayout>
