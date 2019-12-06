@@ -83,14 +83,19 @@ Server means we are testing over VGG19 model.
 
 It means .tflite model is running locally and test only single image.
 
+<img src="images/single_local_fast.gif" width="200" height="350" />
+
+
 | | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
 |<img src="images/slocal_meme_1.png" style="width:350px;height:600px;">    | <img src="images/slocal_meme_2.png" style="width:350px;height:600px;"> |<img src="images/slocal_n_meme_1.png" style="width:350px;height:600px;"> |  <img src="images/slocal_no_meme_2.png" style="width:350px;height:600px;"> |
 
 
+
 ### 2. Check Multiple Images Locally
 It means .tflite model is running locally and test multiple images.
 
+<img src="images/local_mul_fast.gif" width="200" height="350" />
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
@@ -98,6 +103,8 @@ It means .tflite model is running locally and test multiple images.
 
 ### 3. Check Single Image on Server(Flask REST API)
 It means **VGG19** model is running flask GCP server and test only single image.
+
+<img src="images/single_server.gif" width="200" height="350" />
 
 
 | | | |
@@ -107,6 +114,9 @@ It means **VGG19** model is running flask GCP server and test only single image.
 
 ## 4. Check Multiple Image on Server(Flask REST API)
 It means **VGG19** model is running flask GCP server and test multiple images.
+
+<img src="images/server-mul-edit.mp4" width="200" height="350" />
+
 
 
 | | | |
