@@ -115,7 +115,7 @@ It means **VGG19** model is running flask GCP server and test only single image.
 ## 4. Check Multiple Image on Server(Flask REST API)
 It means **VGG19** model is running flask GCP server and test multiple images.
 
-<img src="images/server-mul-edit.mp4" width="200" height="350" />
+<img src="images/server-mul-edit.gif" width="200" height="350" />
 
 
 
