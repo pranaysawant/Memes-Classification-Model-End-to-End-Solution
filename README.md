@@ -28,8 +28,8 @@ Classify Memes images from phone gallery without touching personal images. Find 
 
 ## Deploy Model
 
-1. deploy model on andriod environment
-2. deploy moodel on server using flask
+1. Deploy model on andriod environment
+2. Deploy moodel on server using flask
 
 ### 1. Deploy model on andriod environment
 We fine-tune couple of models. **MOBILE-NET** model on fine tuned and convert to .tflite using **TFLite** library. Full code can be found
@@ -81,7 +81,7 @@ Server means we are testing over VGG19 model.
 
 ### 1. Check single Images Locally
 
-It means .tflite model is running locally and test only single image.
+It means **Mobile-Net tflite** model is running locally and test only single image.
 
 <img src="images/single_local_fast.gif" width="200" height="350" />
 
@@ -93,7 +93,7 @@ It means .tflite model is running locally and test only single image.
 
 
 ### 2. Check Multiple Images Locally
-It means .tflite model is running locally and test multiple images.
+It means **Mobile-Net tflite** model is running locally and we are testing multiple images.
 
 <img src="images/local_mul_fast.gif" width="200" height="350" />
 
@@ -102,7 +102,7 @@ It means .tflite model is running locally and test multiple images.
 |<img src="images/bulk_lcal3.png" style="width:350px;height:600px;"> | <img src="images/bulk_local1.png" style="width:350px;height:600px;"> |<img src="images/bulk_local3.png" style="width:350px;height:600px;"> | 
 
 ### 3. Check Single Image on Server(Flask REST API)
-It means **VGG19** model is running flask GCP server and test only single image.
+It means fine tuned **VGG19** model is running flask GCP server and test only single image.
 
 <img src="images/single_server.gif" width="200" height="350" />
 
@@ -113,7 +113,7 @@ It means **VGG19** model is running flask GCP server and test only single image.
 
 
 ## 4. Check Multiple Image on Server(Flask REST API)
-It means **VGG19** model is running flask GCP server and test multiple images.
+It means fine tuned **VGG19** model is running flask GCP server and testing on multiple images.
 
 <img src="images/server-mul-edit.gif" width="200" height="350" />
 
