@@ -21,7 +21,7 @@ Classify Memes images from phone gallery without touching personal images. Find 
 
 ## Real world/Business Objectives and Constraints :
 - The cost of a mis-classification can be very high. Because suppose if image is not meme and we classified it is as meme then it not good for app.
-- No strict latency concerns.
+- Latency concerns. Model should quickly identify image meme or not. Otherwise app thrown into trash.
 
 ## Performance Metric:
 - Binary cross entropy
