@@ -39,6 +39,12 @@ We fine-tune couple of models. **MOBILE-NET** model on fine tuned and convert to
 We fine-tune **VGG19** model and deployed on GCP server using **Flask** framework. We have written REST API for the same. code can be found 
 - https://github.com/pranaysawant/Memes-Classification-Model-End-to-End-Solution/tree/master/FlaskApp
 
+## Blog :
+- [Medium blog can be found here](https://medium.com/@pranaysawant22/memes-detection-android-app-using-deep-learning-d2c65347e6f3?sk=e2cf91901751bdf74512250483f3602e)
+- [Medium blog for deploying on android platform can be found here](https://medium.com/@pranaysawant22/deploy-mobilenet-model-to-android-platform-2886789a7628?sk=94b9093d249ce57c134c46600c9b90b1)
+- [Medium blog for deploying on flask GCP can be found here](https://medium.com/@pranaysawant22/deploy-keras-model-to-flask-app-rest-apis-f9f4e834e3bd?sk=d8f7c429f0c1410e9f0be236a7e5b487)
+
+
 
 ## Result:
 
