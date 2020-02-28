@@ -1,27 +1,3 @@
-# import os
-# from keras.preprocessing import image
-# from keras.applications.imagenet_utils import preprocess_input, decode_predictions
-# from keras.preprocessing.image import img_to_array
-# from keras.applications import imagenet_utils
-# from PIL import Image
-# import numpy as np
-# import io
-# from keras.models import load_model,Sequential
-
-# import urllib.request
-# import flask
-# from flask import Flask, request, redirect, jsonify
-# from werkzeug.utils import secure_filename
-# from os import makedirs
-# from os.path import exists, join
-
-
-# from tensorflow import Graph
-# import tensorflow as tf
-# import keras
-# from keras import backend as K
-
-
 import os
 from PIL import Image
 import numpy as np
@@ -47,18 +23,23 @@ print("Tensorflow Version ",tensorflow.__version__)
 print("Tensorflow Keras version ",tensorflow.keras.__version__)
 print("Keras Version ",keras_lib.__version__)
 
+# Always clear session before start
 K.clear_session()
 tensorflow.keras.backend.clear_session()
 
 ## Initialise Flask
 app = flask.Flask(__name__)
 
+
+## load model
 @app.before_first_request
 def load_model_keras_model():
     global model
-    model = load_model('/home/pranay/Image Upload/model.v1.h5')
+    model = load_model('/home/pranay/model.v1.h5')
     print("=============================Model Loaded==========================")
 
+global CATEGORIES
+CATEGORIES = ['Not Meme', 'Meme']
 
 # Maximum Image Uploading size
 app.config['MAX_CONTENT_LENGTH'] = 2 * 1024 * 1024
@@ -116,6 +97,8 @@ def predict():
                                 "response_root": "Error", 'imagePath': filename, 'memeStatus': "Not Defined"}
                     responseFileList.append(fileResp)
                 else:
+
+                	## Success Response
                     fileResp = {'response_message': "Valid File", 'response_code': "200",
                                 "response_root": "Success", 'imagePath': filename, 'memeStatus': class_lable}
                     responseFileList.append(fileResp)
@@ -136,14 +119,10 @@ def predict():
 
     return jsonify(responseFileList)
 
-
-
-
 ######################################################
 
 def predict_label(f):
 
-    CATEGORIES = ['Not Meme', 'Meme']
     class_lable = ''
 
     try:
@@ -164,6 +143,8 @@ def predict_label(f):
 if __name__ == "__main__":
     print(("* Loading Keras model and Flask starting server..."
            "please wait until server has fully started"))
-    app.run(host='192.168.1.104', port=5001, debug=True, threaded=True)
+    # app.run(host='34.93.214.159', port=5001, debug=True, threaded=True)
+    app.run(host='0.0.0.0', port=5001, debug=True, threaded=True)
+
 
 
